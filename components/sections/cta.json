@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_ctas",
+  "info": {
+    "name": "CTA",
+    "icon": "hand-pointer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "action": {
+      "type": "string",
+      "regex": "^[#/].*",
+      "default": "#",
+      "required": false
+    }
+  }
+}
