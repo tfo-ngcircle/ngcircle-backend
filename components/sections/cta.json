@@ -13,9 +13,13 @@
     },
     "action": {
       "type": "string",
-      "regex": "^[#/].*",
+      "regex": "^[#/].",
       "default": "#",
       "required": false
+    },
+    "description": {
+      "type": "string",
+      "required": true
     }
   }
 }
