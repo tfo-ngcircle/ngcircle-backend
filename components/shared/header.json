@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "name": "Header",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.menu-item"
+    }
+  }
+}

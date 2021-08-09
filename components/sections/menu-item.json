@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_menu_items",
+  "info": {
+    "name": "Menu Item",
+    "icon": "list",
+    "description": "All Item names must begin with a capitial letter and destinations with a foward slash"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "regex": "\\b[A-Z].*?\\b",
+      "unique": true,
+      "maxLength": 32
+    },
+    "destination": {
+      "type": "string",
+      "unique": true,
+      "default": "/",
+      "regex": "^\\/.+",
+      "required": true
+    }
+  }
+}
