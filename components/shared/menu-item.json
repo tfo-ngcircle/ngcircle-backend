@@ -1,7 +1,7 @@
 {
   "collectionName": "components_sections_menu_items",
   "info": {
-    "name": "Menu Item",
+    "name": "Link",
     "icon": "list",
     "description": "All Item names must begin with a capitial letter and destinations with a foward slash"
   },
@@ -16,7 +16,7 @@
     },
     "destination": {
       "type": "string",
-      "unique": true,
+      "unique": false,
       "default": "/",
       "regex": "^\\/.+",
       "required": true

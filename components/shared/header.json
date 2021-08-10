@@ -19,7 +19,7 @@
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "sections.menu-item"
+      "component": "shared.menu-item"
     }
   }
 }
