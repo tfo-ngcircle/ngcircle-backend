@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_locations",
+  "info": {
+    "name": "Location",
+    "icon": "map-marker-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "City": {
+      "type": "string"
+    },
+    "Info": {
+      "type": "richtext"
+    }
+  }
+}

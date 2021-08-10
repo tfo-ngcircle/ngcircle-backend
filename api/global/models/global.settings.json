@@ -38,6 +38,11 @@
       "repeatable": false,
       "component": "shared.header",
       "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.footer"
     }
   }
 }

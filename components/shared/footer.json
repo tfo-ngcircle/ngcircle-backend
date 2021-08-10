@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.locations"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.menu-item",
+      "max": 4
+    }
+  }
+}
