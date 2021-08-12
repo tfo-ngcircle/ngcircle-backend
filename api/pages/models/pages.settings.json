@@ -39,7 +39,13 @@
       ]
     },
     "content": {
-      "type": "richtext"
+      "type": "dynamiczone",
+      "components": [
+        "shared.markdown",
+        "shared.media",
+        "shared.media-desc"
+      ],
+      "min": 1
     }
   }
 }

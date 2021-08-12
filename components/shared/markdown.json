@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_markdowns",
+  "info": {
+    "name": "Markdown",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "md": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_media",
+  "info": {
+    "name": "Media",
+    "icon": "caret-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "fillScreenWidth": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
