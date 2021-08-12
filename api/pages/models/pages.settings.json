@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.cta"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 64,
+      "minLength": 3
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "landing": {
+      "type": "dynamiczone",
+      "components": [
+        "landing.primary-image"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
