@@ -36,7 +36,9 @@
       "type": "dynamiczone",
       "components": [
         "landing.primary-image"
-      ]
+      ],
+      "max": 1,
+      "min": 1
     },
     "content": {
       "type": "dynamiczone",

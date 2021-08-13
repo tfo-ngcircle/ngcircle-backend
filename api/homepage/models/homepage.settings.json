@@ -20,6 +20,14 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.cta"
+    },
+    "landing": {
+      "type": "dynamiczone",
+      "components": [
+        "landing.primary-image"
+      ],
+      "max": 1,
+      "min": 1
     }
   }
 }
