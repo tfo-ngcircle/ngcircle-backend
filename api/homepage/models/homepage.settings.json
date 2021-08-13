@@ -16,7 +16,7 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "CTA": {
+    "cta": {
       "type": "component",
       "repeatable": false,
       "component": "sections.cta"
