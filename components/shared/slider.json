@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.markdown"
+    }
+  }
+}

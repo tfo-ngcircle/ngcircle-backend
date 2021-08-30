@@ -35,7 +35,8 @@
     "landing": {
       "type": "dynamiczone",
       "components": [
-        "landing.primary-image"
+        "landing.primary-image",
+        "shared.slider"
       ],
       "max": 1,
       "min": 1
@@ -45,7 +46,8 @@
       "components": [
         "shared.markdown",
         "shared.media",
-        "shared.media-desc"
+        "shared.media-desc",
+        "shared.slider"
       ],
       "min": 1
     }
