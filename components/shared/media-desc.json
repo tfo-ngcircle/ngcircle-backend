@@ -1,8 +1,9 @@
 {
   "collectionName": "components_shared_media_descs",
   "info": {
-    "name": "MediaDesc",
-    "icon": "align-center"
+    "name": "TextWithMedia",
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,16 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right",
+        "justify"
+      ],
+      "default": "center"
     }
   }
 }
