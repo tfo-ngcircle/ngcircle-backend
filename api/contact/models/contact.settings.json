@@ -1,15 +1,15 @@
 {
   "kind": "singleType",
-  "collectionName": "homepages",
+  "collectionName": "contacts",
   "info": {
-    "name": "Homepage",
-    "description": ""
+    "name": "Contact"
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "seo": {
       "type": "component",
@@ -24,20 +24,11 @@
     "landing": {
       "type": "dynamiczone",
       "components": [
-        "landing.primary-image",
-        "shared.slider"
+        "shared.slider",
+        "landing.primary-image"
       ],
-      "max": 1,
-      "min": 1
-    },
-    "content": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.media-desc",
-        "shared.spacer",
-        "shared.markdown",
-        "shared.media"
-      ]
+      "min": 1,
+      "max": 1
     }
   }
 }
