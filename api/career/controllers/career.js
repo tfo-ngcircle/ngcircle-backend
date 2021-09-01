@@ -5,14 +5,13 @@
  * to customize this controller
  */
 
+const { sanitizeEntity } = require("strapi-utils");
+
 module.exports = {
-  find: (ctx) => {
-    return strapi.query("career").find(ctx.query, [
-      {
-        populate: {
-          path: "locations",
-        },
-      },
+  async find(ctx) {
+    let entity = await strapi.services.career.find(ctx.query, [
+      "jobs.location",
     ]);
+    return sanitizeEntity(entity, { model: strapi.models.career });
   },
 };

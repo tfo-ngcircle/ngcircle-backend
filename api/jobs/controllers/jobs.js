@@ -5,8 +5,4 @@
  * to customize this controller
  */
 
-module.exports = {
-  find: (ctx) => {
-    return strapi.query("jobs").find(ctx.query, ["location"]);
-  },
-};
+module.exports = {};
