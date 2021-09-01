@@ -47,7 +47,8 @@
         "shared.markdown",
         "shared.media",
         "shared.media-desc",
-        "shared.slider"
+        "shared.slider",
+        "shared.spacer"
       ],
       "min": 1
     }
