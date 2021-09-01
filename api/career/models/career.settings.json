@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "careers",
   "info": {
-    "name": "Career"
+    "name": "Career",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -26,7 +27,9 @@
       "components": [
         "shared.slider",
         "landing.primary-image"
-      ]
+      ],
+      "max": 1,
+      "min": 1
     },
     "content": {
       "type": "dynamiczone",
@@ -39,6 +42,16 @@
     },
     "jobs": {
       "collection": "jobs"
+    },
+    "contentAfter": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.media-desc",
+        "shared.slider",
+        "shared.spacer",
+        "shared.markdown",
+        "shared.media"
+      ]
     }
   }
 }
