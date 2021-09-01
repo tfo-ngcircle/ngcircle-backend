@@ -7,6 +7,6 @@
 
 module.exports = {
   find: (ctx) => {
-    return strapi.query("job").find(ctx.query, ["location"]);
+    return strapi.query("jobs").find(ctx.query, ["location"]);
   },
 };
