@@ -2,12 +2,25 @@
   "collectionName": "components_shared_markdowns",
   "info": {
     "name": "Markdown",
-    "icon": "angle-double-down"
+    "icon": "angle-double-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "md": {
       "type": "richtext"
+    },
+    "textColor": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black"
+      ],
+      "default": "black"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "transparent"
     }
   }
 }

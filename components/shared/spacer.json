@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_spacers",
+  "info": {
+    "name": "Spacer",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "height": {
+      "type": "integer",
+      "default": 72,
+      "max": 1920
+    },
+    "width": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
