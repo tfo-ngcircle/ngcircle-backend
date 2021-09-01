@@ -21,6 +21,14 @@
     "fillScreenWidth": {
       "type": "boolean",
       "default": true
+    },
+    "height": {
+      "type": "integer",
+      "max": 1920
+    },
+    "parallax": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

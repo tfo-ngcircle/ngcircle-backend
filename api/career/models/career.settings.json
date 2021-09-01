@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "name": "Career"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.cta"
+    },
+    "landing": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.slider",
+        "landing.primary-image"
+      ]
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.media-desc",
+        "shared.spacer",
+        "shared.markdown",
+        "shared.media"
+      ]
+    },
+    "jobs": {
+      "collection": "jobs"
+    }
+  }
+}

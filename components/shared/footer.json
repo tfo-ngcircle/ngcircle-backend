@@ -19,16 +19,14 @@
       "required": false,
       "pluginOptions": {}
     },
-    "locations": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.locations"
-    },
     "links": {
       "type": "component",
       "repeatable": true,
       "component": "shared.menu-item",
       "max": 4
+    },
+    "locations": {
+      "collection": "locations"
     }
   }
 }
