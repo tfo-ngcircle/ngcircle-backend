@@ -8,7 +8,8 @@
   "options": {},
   "attributes": {
     "md": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "textColor": {
       "type": "enumeration",
