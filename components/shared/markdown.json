@@ -22,6 +22,16 @@
     "backgroundColor": {
       "type": "string",
       "default": "transparent"
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
