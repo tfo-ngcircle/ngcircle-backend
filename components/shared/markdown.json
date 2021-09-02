@@ -32,6 +32,15 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "textAlignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left"
     }
   }
 }
