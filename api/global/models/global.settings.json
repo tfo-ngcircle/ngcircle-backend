@@ -19,7 +19,9 @@
     "favicon": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {
@@ -51,7 +53,7 @@
     "header": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.header",
+      "component": "sections.header",
       "required": true,
       "pluginOptions": {
         "i18n": {
@@ -62,7 +64,7 @@
     "footer": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.footer",
+      "component": "sections.footer",
       "pluginOptions": {
         "i18n": {
           "localized": true
