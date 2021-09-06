@@ -2,16 +2,15 @@
   "collectionName": "components_shared_headers",
   "info": {
     "name": "Header",
-    "icon": "angle-right"
+    "icon": "angle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
@@ -20,6 +19,9 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.menu-item"
+    },
+    "pages": {
+      "collection": "pages"
     }
   }
 }

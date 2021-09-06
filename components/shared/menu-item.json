@@ -11,7 +11,7 @@
       "type": "string",
       "required": true,
       "regex": "\\b[A-Z].*?\\b",
-      "unique": true,
+      "unique": false,
       "maxLength": 32
     },
     "destination": {

@@ -59,7 +59,8 @@
         "shared.media-desc",
         "shared.spacer",
         "shared.markdown",
-        "shared.media"
+        "shared.media",
+        "shared.network-group"
       ],
       "required": true,
       "pluginOptions": {
