@@ -51,7 +51,8 @@
         "shared.media",
         "shared.media-desc",
         "shared.slider",
-        "shared.spacer"
+        "shared.spacer",
+        "shared.network-group"
       ],
       "min": 1,
       "required": true

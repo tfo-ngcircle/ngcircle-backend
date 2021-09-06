@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_network_groups",
+  "info": {
+    "name": "networkGroup",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.network-item",
+      "required": true,
+      "max": 1
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textAlignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "required": true,
+      "default": "center"
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

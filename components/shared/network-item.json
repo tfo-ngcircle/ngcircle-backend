@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_network_items",
+  "info": {
+    "name": "networkItem",
+    "icon": "tablet-alt"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
