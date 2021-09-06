@@ -2,7 +2,8 @@
   "collectionName": "components_shared_network_groups",
   "info": {
     "name": "networkGroup",
-    "icon": "bars"
+    "icon": "bars",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,8 +11,7 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.network-item",
-      "required": true,
-      "max": 1
+      "required": true
     },
     "backgroundColor": {
       "type": "string"
