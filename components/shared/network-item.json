@@ -2,14 +2,17 @@
   "collectionName": "components_shared_network_items",
   "info": {
     "name": "networkItem",
-    "icon": "tablet-alt"
+    "icon": "tablet-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "media": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
@@ -17,6 +20,12 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "redirectTitle": {
+      "type": "string"
+    },
+    "redirectValue": {
+      "type": "string"
     }
   }
 }
