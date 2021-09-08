@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_dialogs",
+  "info": {
+    "name": "dialog",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "positiveText": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "negativeText": {
+      "type": "string",
+      "maxLength": 64
+    }
+  }
+}

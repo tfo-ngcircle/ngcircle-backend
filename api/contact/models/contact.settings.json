@@ -67,6 +67,27 @@
         "shared.markdown",
         "shared.media"
       ]
+    },
+    "dialog": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.dialog",
+      "required": true
+    },
+    "form": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.input"
     }
   }
 }
