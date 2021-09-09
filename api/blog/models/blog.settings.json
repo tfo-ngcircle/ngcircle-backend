@@ -2,36 +2,60 @@
   "kind": "singleType",
   "collectionName": "blogs",
   "info": {
-    "name": "Blog"
+    "name": "Blog",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "cta": {
       "type": "component",
       "repeatable": false,
-      "component": "sections.cta"
+      "component": "sections.cta",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "title": {
       "type": "string",
       "required": true,
-      "maxLength": 3
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "landing": {
       "type": "dynamiczone",
       "components": [
         "landing.primary-image"
       ],
-      "max": 1
+      "max": 1,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "content": {
       "type": "dynamiczone",
@@ -42,7 +66,12 @@
         "shared.markdown",
         "shared.media",
         "shared.slider"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "articles": {
       "collection": "article"
