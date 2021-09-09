@@ -38,6 +38,9 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
