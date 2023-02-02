@@ -72,9 +72,6 @@
           "localized": true
         }
       }
-    },
-    "articles": {
-      "collection": "article"
     }
   }
 }
